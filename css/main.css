@@ -90,7 +90,7 @@ textarea {
    .content-wrapper {
     width: 90%;
     margin: 50px 0;
-   }
+  }
 
    /*--------------------Base Header-Footer Styles -----------------------*/
    header,
@@ -244,11 +244,11 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-  }
+}
 
   .contact-content p {
-    margin:0;
-  }
+    margin: 0;
+}
 
  /*--------------------Mobile Styles - FAQ-----------------------*/ 
  .faq {
@@ -267,7 +267,7 @@ textarea {
 }
 
 .faq h2 {
-  padding-bottom:50px;
+  padding-bottom: 50px;
 }
 
 .faq-content {
@@ -399,8 +399,6 @@ textarea {
 
    
     /*--------------------Homepage Styles -----------------------*/
-    
-    /* Hero - styles*/
 
         /* Aside - styles */
 
@@ -425,11 +423,11 @@ textarea {
       align-items: center;
       flex-flow: column wrap;
       flex-basis: 50%; 
-   } 
+    } 
 
    .features .features-item-description{
      width: 50%;
-   }
+    }
 
   /* Reviews - styles*/ 
 
@@ -444,7 +442,7 @@ textarea {
 
      /* Footer styles*/
 
-     footer .content-wrapper {
+    footer .content-wrapper {
       width: 65%;
       margin: 100px 0;
     }
@@ -508,12 +506,76 @@ textarea {
 
     /*--------------------Homepage Styles -----------------------*/
     
-    /* Feature styles*/ 
-     
-  .features-items article {
-    width: 30%;
-  } 
+     /*--------------------General - Styles -----------------------*/
+   
+    .content-wrapper {
+      max-width: 960px;
+    }
 
+    /* Hero - Styles*/
+
+    .hero-area h1 {
+      width: 70%;
+    }
+
+    /* Aside - styles */
+
+    aside .content-wrapper {
+      justify-content: space-around;
+    }
+
+    aside .content-wrapper .form-description, 
+    aside .content-wrapper.form {
+      width: 33%;
+    }
+
+     /* Features - styles*/ 
+
+    .features h2 {
+      width: 90%;
+    }
+     
+    .features article {
+      flex-basis: 33%; 
+    } 
+
+  /* Reviews - styles*/ 
+
+    .reviews article div {
+      width: 45%;
+    }
+
+   /* Footer styles*/
+
+   footer .content-wrapper {
+      width: 88%;
+    }
+
+  
+
+  
+  
+  /*--------------------About Styles -----------------------*/
+  
+  .mission h2,
+  .contact-section  .content-wrapper h2 {
+    width: 90%;
+
+  }
+
+  /*--------------------FAQ Styles -----------------------*/
+  
+  .faq-content {
+    flex-basis: 46%; 
+  }
+
+  .faq h2 {
+    width: 100%;
+  }
+
+} /*--------------------Media queries end here -----------------------*/
+
+ 
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
