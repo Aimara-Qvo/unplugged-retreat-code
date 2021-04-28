@@ -132,11 +132,11 @@ p {
 }
  
 img {
- 
+  width: 100%;
 }
  
 figure {
- 
+  margin: 0;
 }
  
 address {
@@ -171,6 +171,14 @@ address {
     align-items: center;
     flex-flow: row wrap;
     margin: 0;
+  }
+
+  header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
   }
   
   .header-divider {
@@ -243,6 +251,9 @@ address {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background: url('../img/hero-img.jpg') center no-repeat;
+    background-size: cover;
+    min-height: 500px;
   }
 
   .hero-area h1 {
@@ -295,6 +306,8 @@ address {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background: url('../img/features-img.jpg') center no-repeat;
+    background-size: cover;
   }
 
   .feature h2{
@@ -314,6 +327,7 @@ address {
   }
    
   .features p {
+    
     margin: 0;
   }
 
@@ -525,8 +539,12 @@ address {
       justify-content: space-between;
     } 
 
-  /* Hero Area */
+  /* Hero - Styles */
 
+  .hero-area {
+    min-height: 600px;
+  }
+  
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
@@ -577,8 +595,9 @@ address {
     width: 85%;
   }
  
+  .reviews article figure,
   .reviews article div {
-    width: 50%;
+    width: 49%;
   }
 
   .reviews h3 {
@@ -593,7 +612,7 @@ address {
     margin: 100px 0;
   }
 
-    .footer-content {
+    footer .footer-content {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -683,12 +702,6 @@ address {
       max-width: 960px;
     }
 
-    /* Hero - Styles*/
-
-    .hero-area h1 {
-      width: 70%;
-    }
-
     h2 {
       font-size: 2.25em;
     }
@@ -703,9 +716,11 @@ address {
         line-height: 1.333;
     }
 
+    /* Hero - Styles*/
+
     .hero-area h1 {
       font-size: 3.75em;
-      width: 60%;
+      width: 80%;
   }
 
     /* Aside - styles */
@@ -735,12 +750,12 @@ address {
 
   /* Reviews - styles*/ 
 
-  .reviews h2 {
-    padding-bottom: 50px; 
-  }
-
   .reviews article div {
       width: 45%;
+    }
+
+    .reviews h2 {
+      padding-bottom: 50px; 
     }
 
    /* Footer styles*/
