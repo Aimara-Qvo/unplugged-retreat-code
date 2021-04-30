@@ -245,6 +245,10 @@ footer .social-icons p {
   background-color: #527158;
 }
 
+footer .social-icons p i {
+  font-size: 1em;
+}
+
 footer .copyright {
   margin: 20px 0;
 }
@@ -276,6 +280,10 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+aside .content-wrapper {
+  margin: 10px 0 50px;
 }
 
 aside .form {
@@ -314,7 +322,8 @@ input[type=button] {
   background-size: cover;
 }
 
-.feature h2{
+.features h2{
+  margin-top: 0;
   margin-bottom: 50px;
 }
 
@@ -334,9 +343,10 @@ input[type=button] {
 }
    
 .features p {
+  text-align: center;
   display: flex;
   margin: 0;
-/}
+}
 
 .features i {
   font-size: 3.75em;
@@ -353,6 +363,7 @@ input[type=button] {
 }
 
 .reviews h2 {
+  margin-top: 0;
   margin-bottom: 40px;
   line-height: 1;
 }
@@ -420,7 +431,8 @@ input[type=button] {
 }
 
 .faq h2 {
-  padding-bottom: 50px;
+  margin-top: 0;
+  margin-bottom: 40px;
   line-height: 1;
 }
 
@@ -584,7 +596,7 @@ header nav ul {
 /* Aside - styles */
 
 aside .content-wrapper {
-  margin: 50px 0;
+  margin: 0;
   display: flex;
   justify-content: space-between;
   flex-flow: row wrap;
@@ -593,7 +605,7 @@ aside .content-wrapper {
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
   width: 40%;
-  margin: 0;
+  margin: 50px 0;
 }
     
 /* Features - styles*/ 
@@ -659,11 +671,12 @@ footer h4 {
 }
 
 footer p {
-    line-height: 1.285;
+  line-height: 1.285;
 }
 
-footer .social-icons p {
-  margin: 10px;
+footer .social-icons  {
+  width: 12.5em;
+  justify-content: space-between;
 }
 
 footer .copyright {
@@ -685,6 +698,8 @@ footer .copyright {
 
 .contact-section  .content-wrapper h2 {
   width: 80%;
+  margin-top: 0;
+  margin-bottom: 40px;
 }
 
 .contact-content {
@@ -708,6 +723,8 @@ footer .copyright {
 }
 
 .faq h2 {
+  margin-top: 0;
+  margin-bottom: 40px;
   width:100%;
 }
 
